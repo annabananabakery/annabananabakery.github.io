@@ -2947,7 +2947,6 @@
 		}
 
 		#banner .inner {
-			border-top: 2px solid rgba(255, 255, 255, 0.2);
 			position: relative;
 			z-index: 10005;
 			padding-top: 8em;
@@ -3121,7 +3120,7 @@
 
 	#footer {
 		padding: 6em 0;
-		background: #6cc091;
+		background: rgb(60, 134, 92);
 		color: #fff;
 		text-align: center;
 	}
