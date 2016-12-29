@@ -2231,6 +2231,8 @@
 
 		.image.round img {
 			border-radius: 100%;
+			width: 16em;
+			height: 16em;
 		}
 
 		.image.left {
@@ -2526,8 +2528,8 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #6cc091;
-		color: #6cc091 !important;
+		box-shadow: inset 0 0 0 2px #c3ff0c;
+		color: #ffffff !important;
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
@@ -2928,7 +2930,7 @@
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.85);
+			background: rgba(75, 75, 93, 0.45);
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2960,13 +2962,13 @@
 		}
 
 		#banner .icon {
-			color: #6cc091;
+			color: #ffffff;
 			font-size: 2em;
 		}
 
 		#banner p {
 			font-size: 1em;
-			color: rgba(255, 255, 255, 0.55);
+			color: rgba(255, 255, 255, 0.80);
 			margin-bottom: 1.75em;
 		}
 
@@ -3029,7 +3031,7 @@
 				}
 
 				#banner h3 {
-					font-size: 1.25em;
+					font-size: 1.5em;
 				}
 
 				#banner .flex div {
@@ -3050,7 +3052,7 @@
 				}
 
 				#banner h1 {
-					font-size: 2.5em;
+					font-size: 3em;
 				}
 
 				#banner h3 {
