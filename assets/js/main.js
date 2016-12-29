@@ -63,4 +63,15 @@
 
 	});
 
+	var feed = new Instafeed({
+	get: 'user',
+	userId: '3296245866',
+	accessToken: '3296245866.1677ed0.7cc305739519435cafa06b2483d13cbe',
+	template: '<div class="item"><img src="{{image}}"/></div>',
+	after: function () {
+            $('#instafeed > div:nth-child(1)').addClass('active');
+        }
+	});
+	feed.run();
+
 })(jQuery);
