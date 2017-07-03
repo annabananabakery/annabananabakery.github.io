@@ -3120,7 +3120,7 @@
 
 	#footer {
 		padding: 6em 0;
-		background: rgb(60, 134, 92);
+		background: olivedrab;
 		color: #fff;
 		text-align: center;
 	}
@@ -3166,3 +3166,12 @@
 			}
 
 		}
+
+
+	.order-sheet-button {
+		background-color: rgba(107, 142, 35, 0.9);
+	}
+
+	.order-sheet-button:hover {
+		background-color: rgba(107, 142, 35, 0.7);
+	}
